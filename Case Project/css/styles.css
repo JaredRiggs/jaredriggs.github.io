@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*
+  Case Project CIS 166AA
+
+  Case Project Style Sheet
+
+  Filename: styles.css
+
+*/
+
+/* HTML and Body Styles */
+html {
+	background-color: rgb(205, 201, 201);
+	font-size: 12px;
+	font-family: Lato, Montserrat, sans-serif;
+}
+
+/* Body Header Navigation Styles */
+header {
+	background-image:
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+	min-height: 180px;
+	position: relative;
+}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+}
+
+#nav ul {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+li {
+	width: 24%;
+	overflow: hidden;
+  float: left;
+  border-bottom: 1px solid transparent;
+}
+
+
+a {
+	position: sticky;
+	display: grid;
+	color: rgb(49, 79, 79);
+	text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+	background-color: rgb(205, 201, 201);
+	overflow: visible;
+}
+
+.tabs {
+	position: sticky;
+	color: rgb(220, 174, 29);
+	text-align: center;
+	background-color: rgb(205, 201, 201);
+	overflow: hidden;
+}
+/* pseudo-element */
+
+a:hover {
+    color: rgb(122, 157, 150);
+}
